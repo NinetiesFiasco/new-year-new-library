@@ -96,6 +96,7 @@ module.exports = {
           <div>Обновление проекта на GitHub pages</div>
           <ul>
             <li>Запустить сборку <span class="code">npm run build</span></li>
+            <li>Создать комит с новой сборкой</li>
             <li>Опубликовать сборку <span class="code">git subtree push --prefix dist origin gh-pages</span></li>
           </ul>
         </div>

@@ -1,7 +1,8 @@
 <template>
   <div id="seredin-library">
+    
     <div>
-      <h1>Seredin programmer library</h1>
+      <h1>Библиотека программиста</h1>
       <p>Как водится каждый раз начинаю писать новую библиотеку с кодом :-) посмотрим что выйдет на этот раз</p>
       <p>Идея в том что теперь будет множество раздвижных и всплывающих окон и множество ссылок на GIT с описанием использования.</p>
       <div>
@@ -19,6 +20,7 @@
         </ul>
       </div>
     </div>
+
     <div>
       <h2>VUE</h2>
       <div>
@@ -28,6 +30,7 @@
         <span class="code">vue create project-name</span> - команда для создания нового приложения.        
       </div>
     </div>
+
     <div>
       <h2>GIT</h2>
       <p>
@@ -48,6 +51,16 @@
               <span class="code">git push -u origin master</span> - опубликовать локальные коммиты в удалённый репозиторий.
             </li>
           </ul>
+        </div>
+      </div>
+
+      <div>
+        <h2>GitHub pages</h2>
+        <div class="description">
+          GitHub pages - позволяет публиковать свой программный код на сервере github.
+        </div>
+        <div>
+
         </div>
       </div>
     </div>

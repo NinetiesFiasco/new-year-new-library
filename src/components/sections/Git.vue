@@ -1,46 +1,42 @@
 <template>
-  <div>
-    <div @click="toggle">
-      <h2>GIT</h2>
-    </div>
-    <div v-if="isOpen">
+  <opener absolute>
+
+    <template v-slot:header>
+      GIT
+    </template>
+    
+    <template v-slot:main>
       <p>
         GIT - система контроля версий, он позволяет хранить свою работу в упорядоченном виде,
         создавать коробочку для каждого отдельного проекта, хранить историю и подключать к разработке других людей и работать с ними параллельно
       </p>
       <div>
         <div>После инициализации проекта его стоит привязать к удалённому GIT репозиторию, у меня заведён аккаунт на GitHub, я создал там новый репозиторий с таким же названием
-          <span class="code">new-year-new-library</span>, сразу после создания GIT предложил связать его с локальным проектом при помощи следующих команд(в командной строке переходим в папку с проектом):
+          <CodeLine>new-year-new-library</CodeLine>, сразу после создания GIT предложил связать его с локальным проектом при помощи следующих команд(в командной строке переходим в папку с проектом):
           <ul>
             <li>
-              <span class="code">git remote add origin repository-url</span>, где repository-url это url адрес репозитория, который выдал GitHub.
+              <CodeLine>git remote add origin repository-url</CodeLine>, где repository-url это url адрес репозитория, который выдал GitHub.
             </li>
             <li>
-              <span class="code">git branch -M master</span> - не смог быстро найти что означает флаг -M, похоже что это указание главной ветки.
+              <CodeLine>git branch -M master</CodeLine> - не смог быстро найти что означает флаг -M, похоже что это указание главной ветки.
             </li>
             <li>
-              <span class="code">git push -u origin master</span> - опубликовать локальные коммиты в удалённый репозиторий.
+              <CodeLine>git push -u origin master</CodeLine> - опубликовать локальные коммиты в удалённый репозиторий.
             </li>
           </ul>
         </div>
       </div>
-    </div>
-  </div>
+    </template>
+
+  </opener>
 </template>
 
 <script>
+import {Opener, CodeLine} from './commons'
+
 export default {
   name: 'Git',
-  data() {
-    return {
-      isOpen: false
-    }
-  },
-  methods: {
-    toggle() {
-      this.isOpen = !this.isOpen;
-    }
-  }
+  components: {Opener, CodeLine}
 }
 </script>
 

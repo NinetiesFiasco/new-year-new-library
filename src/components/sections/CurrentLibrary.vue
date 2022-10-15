@@ -1,9 +1,11 @@
 <template>
-  <div>
-    <div @click="toggle">
-      <h1>Библиотека программиста</h1>
-    </div>
-    <div v-if="isOpen">
+  <opener>
+
+    <template v-slot:header>
+      Библиотека программиста
+    </template>
+
+    <template v-slot:main>
       <p>Как водится каждый раз начинаю писать новую библиотеку с кодом :-) посмотрим что выйдет на этот раз</p>
       <p>Идея в том что теперь будет множество раздвижных и всплывающих окон и множество ссылок на GIT с описанием использования.</p>
       <div>
@@ -20,22 +22,18 @@
           </li>
         </ul>
       </div>
-    </div>
-  </div>
+    </template>
+
+  </opener>
 </template>
 
 <script>
+import {Opener} from './commons'
+
 export default {
   name: 'CurrentLibrary',
-  data() {
-    return {
-      isOpen: false
-    }
-  },
-  methods: {
-    toggle() {
-      this.isOpen = !this.isOpen;
-    }
+  components: {
+    Opener
   }
 }
 </script>

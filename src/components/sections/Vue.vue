@@ -30,22 +30,28 @@
               <li>Удалить предустановки vue, думаю тут будет ссылка на коммит</li>
               <li>Создать одноимённый репозиторий на GitHub</li>
               <li>Привязать к репозиторию проект (можно дать ссылку на страницу git)</li>
-              <li><CodeLine>Ссылка на git</CodeLine></li>
+              <li>
+                <a href="https://github.com/NinetiesFiasco/empty-project">empty-project</a>
+              </li>
             </ul> 
           </div>
 
           <div>
             Переиспользование:
             <ul>
-              <li>Перейдите в папку где будет находиться проект <CodeLine>git clone &lt;git link&gt; &lt;new-project-name&gt;</CodeLine></li>
+              <li>Перейдите в папку где будет находиться проект <CodeLine>git clone https://github.com/NinetiesFiasco/empty-project new-project-name</CodeLine></li>
               <li>
                 Зайдите внутрь папки с проектом и замените название в трёх файлах 
                 <CodeLine>package.json</CodeLine><CodeLine>package-lock.json</CodeLine><CodeLine>README.md</CodeLine>
+                измения стоит закомитить <CodeLine>git commit -a -m"Rename project"</CodeLine>
               </li>
               <li>Запустите <CodeLine>npm i</CodeLine> для установки зависимостей</li>
               <li>Запустите <CodeLine>git remote remove origin</CodeLine> для удаления привязанного репозитория на GitHub</li>
               <li>Создайте новый репозиторий на GitHub</li>
               <li>Повторите процедуру привязки к репозиторию (можно дать ссылку на страницу git)</li>
+              <li>
+                <a href="https://github.com/NinetiesFiasco/new-empty-project">new-empty-project</a>
+              </li>
             </ul>
           </div>
         </div>

@@ -57,7 +57,7 @@
             <div>Обновление проекта на GitHub pages</div>
             <ul>
               <li>Запустить сборку <CodeLine>npm run build</CodeLine></li>
-              <li>Создать комит с новой сборкой <CodeLine>git commit -A -m"new build"</CodeLine></li>
+              <li>Создать комит с новой сборкой <CodeLine>git add -A && git commit -m"new build"</CodeLine></li>
               <li>Опубликовать сборку <CodeLine>git subtree push --prefix dist origin gh-pages</CodeLine></li>
             </ul>
           </template>

@@ -8,6 +8,7 @@
     <template v-slot:main>
       <p>Как водится каждый раз начинаю писать новую библиотеку с кодом :-) посмотрим что выйдет на этот раз</p>
       <p>Идея в том что теперь будет множество раздвижных и всплывающих окон и множество ссылок на GIT с описанием использования.</p>
+      <p>Проект находится в папке <CodeLine>D:\new-year-new-library</CodeLine></p>
       <div>
         Буду считать это документацией моей жизненной позиции :-) главная задача грамотно скомпоновать данные и добиться следующих результатов:
         <ul>
@@ -28,12 +29,12 @@
 </template>
 
 <script>
-import {Opener} from './commons'
+import {Opener, CodeLine} from './commons'
 
 export default {
   name: 'CurrentLibrary',
   components: {
-    Opener
+    Opener, CodeLine
   }
 }
 </script>

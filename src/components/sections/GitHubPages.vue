@@ -23,25 +23,25 @@
               <ul>
                 <li>
                   Так как GitHub pages создаёт postfix в url сайта, нужно сконфигурировать vue для работы с GitHub pages.<br/>
-                  Создаём файл <span class="code">vue.config.js</span> в корне проекта со следующим содержимым<br/>
-                  <span class="code">
+                  Создаём файл <CodeLine>vue.config.js</CodeLine> в корне проекта со следующим содержимым<br/>
+                  <CodeLine>
                     <pre>
     module.exports = {
       publicPath: process.env.NODE_ENV === "production" ? "/&lt;repository_name&gt;/" : "/",
     };
                     </pre>
-                  </span>
+                  </CodeLine>
                 </li>
                 <li>
                   Далее создаём сборку проекта
-                  <span class="code">npm run build</span>
+                  <CodeLine>npm run build</CodeLine>
                 </li>
                 <li>
-                  Далее добавляем сборку в git (вероятно придётся удалить запись /dist из <span class="code">.gitignore</span>)
+                  Далее добавляем сборку в git (вероятно придётся удалить запись /dist из <CodeLine>.gitignore</CodeLine>)
                 </li>
                 <li>
                   И запускаем команду публикации
-                  <span class="code">git subtree push --prefix dist origin gh-pages</span>
+                  <CodeLine>git subtree push --prefix dist origin gh-pages</CodeLine>
                   она создаст дополнительную ветку gh-pages в репозитории GitHub из локальной папки dist.
                   Из неё же GitHub будет показывать сайт.
                 </li>
@@ -56,9 +56,9 @@
           <template v-slot:main>
             <div>Обновление проекта на GitHub pages</div>
             <ul>
-              <li>Запустить сборку <span class="code">npm run build</span></li>
-              <li>Создать комит с новой сборкой ??? не точно</li>
-              <li>Опубликовать сборку <span class="code">git subtree push --prefix dist origin gh-pages</span></li>
+              <li>Запустить сборку <CodeLine>npm run build</CodeLine></li>
+              <li>Создать комит с новой сборкой <CodeLine>git commit -a -m"new build"</CodeLine></li>
+              <li>Опубликовать сборку <CodeLine>git subtree push --prefix dist origin gh-pages</CodeLine></li>
             </ul>
           </template>
         </opener>
@@ -69,10 +69,10 @@
 </template>
 
 <script>
-import {Opener} from './commons'
+import {Opener, CodeLine} from './commons'
 export default {
   name: 'GitHubPages',
-  components: {Opener}
+  components: {Opener, CodeLine}
 }
 </script>
 

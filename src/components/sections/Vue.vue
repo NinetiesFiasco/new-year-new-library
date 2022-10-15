@@ -10,7 +10,7 @@
         VUE - JS фреймворк для компонентной разработки, позволяет разделять jS, CSS и HTML относящиеся к отдельному блоку по отдельным файлам.
       </div>
       <div>
-        <span class="code">vue create project-name</span> - команда для создания нового приложения.        
+        <CodeLine>vue create project-name</CodeLine> - команда для создания нового приложения.        
       </div>
     </template>
 
@@ -18,10 +18,10 @@
 </template>
 
 <script>
-import {Opener} from './commons'
+import {Opener, CodeLine} from './commons'
 export default {
   name: 'Vue',
-  components: {Opener}
+  components: {Opener, CodeLine}
 }
 </script>
 

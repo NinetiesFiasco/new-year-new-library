@@ -3,12 +3,16 @@
     <nav>
       <router-link to="/">Библиотека программиста</router-link>
 
-      <router-link to="/vue">Vue</router-link>
-      <router-link to="/git">Git</router-link>
+      <router-link to="/vue">VUE</router-link>
+      <router-link to="/git">GIT</router-link>
       <router-link to="/git-hub-pages">GitHub pages</router-link>
       <router-link to="/traveling">Путешествия</router-link>
+      <router-link to="/html5">HTML5</router-link>
     </nav>
-    <router-view />
+
+    <main>
+      <router-view />
+    </main>
 
   </div>
 </template>
@@ -36,5 +40,8 @@ nav a:hover {
 }
 nav .router-link-active {
   background: purple;
+}
+main {
+  margin: 26px 0px 0px 0px;
 }
 </style>

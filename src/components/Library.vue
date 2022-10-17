@@ -38,7 +38,7 @@ nav a {
 nav a:hover {
   background: #333;
 }
-nav .router-link-active {
+nav .router-link-active, nav .router-link-active:hover {
   background: purple;
 }
 main {

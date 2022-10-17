@@ -1,38 +1,40 @@
 <template>
   <div id="seredin-library">
+    <nav>
+      <router-link to="/">Библиотека программиста</router-link>
 
-    <CurrentLibrary />
-
-    <div class="chapters">    
-      <Vue />
-      <Git />
-      <GitHubPages />
-      <Traveling />
-    </div>
+      <router-link to="/vue">Vue</router-link>
+      <router-link to="/git">Git</router-link>
+      <router-link to="/git-hub-pages">GitHub pages</router-link>
+      <router-link to="/traveling">Путешествия</router-link>
+    </nav>
+    <router-view />
 
   </div>
 </template>
 
 <script>
-import {CurrentLibrary, Vue, Git, GitHubPages, Traveling} from './sections'
 
 
 export default {
-  name: 'HelloWorld',
-  components: {
-    CurrentLibrary, Vue, Git, GitHubPages, Traveling
-  }
+  name: 'HelloWorld'
 }
 </script>
 
 <style scoped>
-.chapters {
-  display: flex;
-  margin: 10px 0px;
-}
-.code {
-  background:#444;
-  padding: 5px;
+nav a {
   display: inline-block;
+  border: 1px solid #333;
+  cursor: pointer;
+  padding: 3px 6px;
+  margin: 0px 2px;
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  background: #333;
+}
+nav .router-link-active {
+  background: purple;
 }
 </style>

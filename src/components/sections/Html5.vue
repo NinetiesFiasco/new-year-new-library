@@ -39,7 +39,6 @@
   </ul>
   <h3>Never used</h3>
   <ul>
-    <li>&lt;&gt;</li>
     <li>&lt;bdi&gt;</li>
     <li>&lt;data&gt;</li>
     <li>&lt;datalist&gt;</li>

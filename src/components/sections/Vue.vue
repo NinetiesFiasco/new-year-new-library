@@ -52,6 +52,9 @@
           <li>
             <a href="https://github.com/NinetiesFiasco/empty-project">empty-project</a>
           </li>
+          <li>
+            <CodeLine>git clone https://github.com/NinetiesFiasco/empty-project.git my-empty-project</CodeLine>
+          </li>
         </ul> 
       </template>
     </opener>
@@ -73,6 +76,9 @@
       <li>
         <a href="https://github.com/NinetiesFiasco/project-with-router">project-with-router</a>
       </li>
+      <li>
+        <CodeLine>git clone https://github.com/NinetiesFiasco/project-with-router.git my-project-with-router</CodeLine>
+      </li>
     </ul>
   </template>
 </opener>
@@ -92,6 +98,47 @@
       <li>В StoreExample.vue импортировать мапящие функции и промапить геттеры, мутации и экшены, привязать их к кнопкам</li>
       <li>
         <a href="https://github.com/NinetiesFiasco/vue-vuex-project">vue-vuex-project</a>
+      </li>
+      <li>
+        <CodeLine>git clone https://github.com/NinetiesFiasco/vue-vuex-project.git my-vue-vuex-project</CodeLine>
+      </li>
+    </ul>
+  </template>
+</opener>
+
+<opener>
+  <template v-slot:header>
+    CRUD система
+  </template>
+  <template v-slot:main>
+    <ul>
+      <li>Провести процедуру переиспользования из пустого проекта с именем crud-system</li>
+      <li>Переименовать заготовленный компонент в Crud.vue</li>
+      <li>Для старта сделать CRUD в одном компоненте и хранить данные в локальном стейте</li>
+      <li>Разметка: сверстать лист или таблицу с записями, их можно пронумеровать и сделать кнопки обновить и удалить для каждой записи</li>
+      <li>Сделать блок для редактирования одной записи или добавления новой, определять режим по наличию идентификатора</li>
+      <li>Создать стейт</li>
+      <li>
+        Написать методы: 
+          <ul>
+            <li>getEmty - генерация пустого стейта</li>
+            <li>refresh - обнуление стейта при отмене или после сохранения</li>
+            <li>save - сохранение существующей записи или добавление новой</li>
+            <li>update - начать редактировать существующую запись</li>
+            <li>_delete - удалить существующую запись</li>
+          </ul>
+      </li>
+      <li>Далее перевести стейтменеджмент в vuex</li>
+      <li>Запустить <CodeLine>npm i vuex</CodeLine> и создать стор (дать ссылку на проект со стором)</li>
+      <li>В сторе инициализировать стейт, перенести в мутации следующие функции refresh, startuUpdate, create, update, _delete </li>
+      <li>Создать экшен save, который будет вызывать мутации update, create и refresh</li>
+      <li>Написать гетеры для стейта</li>
+      <li>В компоненте удалить стейт и методы, импортировать геттеры, мутации и экшен из стора, привязать их к обработчикам</li>
+      <li>
+        <a href="https://github.com/NinetiesFiasco/crud-system">crud-system</a>
+      </li>
+      <li>
+        <CodeLine>git clone https://github.com/NinetiesFiasco/crud-system.git my-crud-system</CodeLine>
       </li>
     </ul>
   </template>

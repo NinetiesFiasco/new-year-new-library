@@ -8,6 +8,7 @@
       <router-link to="/git-hub-pages">GitHub pages</router-link>
       <router-link to="/traveling">Путешествия</router-link>
       <router-link to="/html5">HTML5</router-link>
+      <router-link to="/express">Express</router-link>
     </nav>
 
     <main>

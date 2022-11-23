@@ -28,34 +28,21 @@
         Нужно внести следующие изменения: в Library.vue добавить ссылку на новый адрес,
         в router.js привязать новый компонент к адресу, в папке sections добавить новый компонент и желательно сделать линк в index.js
       </p>
-      Пустой шаблон
-      <CodeLine>
-        <pre>
-&lt;template&gt;
-  &lt;div&gt;&lt;/div&gt;
-&lt;/template&gt;
 
-&lt;script&gt;
-export default {
-  name: ''
-}
-&lt;/script&gt;
-
-&lt;style scoped&gt;
-&lt;/style&gt;
-        </pre>
-      </CodeLine>
+      <CodeBlocks />
     </section>
   </article>
 </template>
 
 <script>
-import {CodeLine} from './commons'
+import {CodeLine} from '../commons'
+import CodeBlocks from './CodeBlocks.vue'
+
 
 export default {
   name: 'CurrentLibrary',
   components: {
-    CodeLine
+    CodeLine, CodeBlocks
   }
 }
 </script>

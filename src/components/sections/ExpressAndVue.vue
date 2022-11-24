@@ -7,7 +7,7 @@
       <ul>
         <li>наверное надо будет придумать описание попозже, (много ерунды тяжело за неё взяться)</li>
         <li><a href="https://github.com/NinetiesFiasco/express-vue-mongo-crud" target="_blank">Репозиторий</a></li>
-        <li><CodeBlock>git clone https://github.com/NinetiesFiasco/express-vue-mongo-crud.git my-vue-express-crud</CodeBlock></li>
+        <li><CodeLine>git clone https://github.com/NinetiesFiasco/express-vue-mongo-crud.git my-vue-express-crud</CodeLine></li>
       </ul>
     </section>
 
@@ -15,11 +15,11 @@
 </template>
 
 <script>
-import {CodeBlock} from './CurrentLibrary'
+import {CodeLine} from './commons'
 export default {
   name: 'ExpressVue',
   components: {
-    CodeBlock
+    CodeLine
   }
 }
 </script>

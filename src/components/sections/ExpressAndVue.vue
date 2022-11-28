@@ -16,7 +16,7 @@
       <ul>
         <li>Описание тож храмает</li>
         <li><a href="https://github.com/NinetiesFiasco/Improved-CRUD.git" target="_blank">Репозиторий</a></li>
-        <li><CodeLine>git clone https://github.com/NinetiesFiasco/Improved-CRUD.git my-vue-express-crud</CodeLine></li>
+        <li><CodeLine>git clone https://github.com/NinetiesFiasco/Improved-CRUD.git my-improved-crud</CodeLine></li>
       </ul>
     </section>
 

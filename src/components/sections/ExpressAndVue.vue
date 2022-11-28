@@ -10,6 +10,15 @@
         <li><CodeLine>git clone https://github.com/NinetiesFiasco/express-vue-mongo-crud.git my-vue-express-crud</CodeLine></li>
       </ul>
     </section>
+    
+    <section>
+      CRUD с пагинацией и порефакторенный
+      <ul>
+        <li>Описание тож храмает</li>
+        <li><a href="https://github.com/NinetiesFiasco/Improved-CRUD.git" target="_blank">Репозиторий</a></li>
+        <li><CodeLine>git clone https://github.com/NinetiesFiasco/Improved-CRUD.git my-vue-express-crud</CodeLine></li>
+      </ul>
+    </section>
 
   </article>
 </template>

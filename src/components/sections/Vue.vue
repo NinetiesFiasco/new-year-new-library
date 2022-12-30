@@ -70,8 +70,8 @@
       <li>Создать страницы</li>
       <li>Запустить <CodeLine>npm i vue-router</CodeLine></li>
       <li>Следующие 2 пункта имеют расхождения синтаксиса в разных версиях Vue и VueRouter</li>
-      <li>Создать router.js используя созданные страницы и createRouter (можно отдать отсылку на коммит)</li>
-      <li>иИмпортировать router.js в main.js и прописать использование</li>
+      <li>Создать router.js используя созданные страницы и createRouter <a href="https://github.com/NinetiesFiasco/project-with-router/commit/cf8a2d81338948ede540d01b86512e7207c04596">коммит</a></li>
+      <li>и импортировать router.js в main.js и прописать использование</li>
       <li>В App.vue создать маршрутизацию с помощью &lt;router-link&gt; и &lt;router-view&gt;</li>
       <li>
         <a href="https://github.com/NinetiesFiasco/project-with-router">project-with-router</a>

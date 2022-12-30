@@ -6,7 +6,8 @@ import Traveling from './Traveling.vue'
 import Html5 from './Html5.vue'
 import Express from './Express.vue'
 import ExpressAndVue from './ExpressAndVue.vue'
+import VueTests from './VueTests.vue'
 
 export {
-  Vue, Git, GitHubPages, CurrentLibrary, Traveling, Html5, Express, ExpressAndVue
+  Vue, Git, GitHubPages, CurrentLibrary, Traveling, Html5, Express, ExpressAndVue, VueTests
 }

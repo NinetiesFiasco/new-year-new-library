@@ -6,20 +6,18 @@
         </template>
         <template v-slot:main>
           <CodeLine>
-            <pre>
-&lt;template&gt;
-&lt;div&gt;&lt;/div&gt;
+            <pre>&lt;template&gt;
+  &lt;div&gt;&lt;/div&gt;
 &lt;/template&gt;
 
 &lt;script&gt;
 export default {
-name: ''
+  name: ''
 }
 &lt;/script&gt;
 
 &lt;style scoped&gt;
-&lt;/style&gt;
-            </pre>        
+&lt;/style&gt;</pre>        
           </CodeLine>
         </template>
       </opener>

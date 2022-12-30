@@ -10,6 +10,7 @@
       <router-link to="/html5">HTML5</router-link>
       <router-link to="/express">Express</router-link>
       <router-link to="/express-and-vue">Express & VUE</router-link>
+      <router-link to="/vue-tests">VUE tests</router-link>
     </nav>
 
     <main>

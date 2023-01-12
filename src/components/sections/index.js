@@ -7,7 +7,8 @@ import Html5 from './Html5.vue'
 import Express from './Express.vue'
 import ExpressAndVue from './ExpressAndVue.vue'
 import VueTests from './VueTests.vue'
+import Games from './Games.vue'
 
 export {
-  Vue, Git, GitHubPages, CurrentLibrary, Traveling, Html5, Express, ExpressAndVue, VueTests
+  Vue, Git, GitHubPages, CurrentLibrary, Traveling, Html5, Express, ExpressAndVue, VueTests, Games
 }

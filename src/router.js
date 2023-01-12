@@ -1,5 +1,5 @@
 import {createRouter, createWebHistory} from 'vue-router'
-import {CurrentLibrary, Vue, Git, GitHubPages, Traveling, Html5, Express, ExpressAndVue, VueTests} from './components/sections'
+import {CurrentLibrary, Vue, Git, GitHubPages, Traveling, Html5, Express, ExpressAndVue, VueTests, Games} from './components/sections'
 
 const routes = [
   { path: '/', component: CurrentLibrary },
@@ -10,7 +10,8 @@ const routes = [
   { path: '/html5', component: Html5 },
   { path: '/express', component: Express },
   { path: '/express-and-vue', component: ExpressAndVue},
-  { path: '/vue-tests', component: VueTests}
+  { path: '/vue-tests', component: VueTests},
+  { path: '/games', component: Games}
 ]
 
 const router = createRouter({

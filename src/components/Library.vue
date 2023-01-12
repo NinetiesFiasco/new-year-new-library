@@ -11,6 +11,7 @@
       <router-link to="/express">Express</router-link>
       <router-link to="/express-and-vue">Express & VUE</router-link>
       <router-link to="/vue-tests">VUE tests</router-link>
+      <router-link to="/games">Игры</router-link>
     </nav>
 
     <main>

@@ -19,6 +19,15 @@
         <li><CodeLine>git clone https://github.com/NinetiesFiasco/Improved-CRUD.git my-improved-crud</CodeLine></li>
       </ul>
     </section>
+    
+    <section>
+      CRUD переведён на ODM mongoose
+      <ul>
+        <li>Сделан на основе 'CRUD с пагинацией и порефакторенный'</li>
+        <li><a href="https://github.com/NinetiesFiasco/mongoose-crud.git" target="_blank">Репозиторий</a></li>
+        <li><CodeLine>git clone https://github.com/NinetiesFiasco/mongoose-crud.git my-mongoose-crud</CodeLine></li>
+      </ul>
+    </section>
 
   </article>
 </template>

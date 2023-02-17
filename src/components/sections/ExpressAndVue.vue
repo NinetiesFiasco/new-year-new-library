@@ -29,6 +29,14 @@
       </ul>
     </section>
 
+    <section>
+      использование CSURF 
+      <ul>
+        <li><a href="https://github.com/NinetiesFiasco/express-csurf.git" target="_blank">Репозиторий</a></li>
+        <li><CodeLine>git clone https://github.com/NinetiesFiasco/express-csurf.git my-mongoose-crud</CodeLine></li>
+      </ul>
+    </section>
+
   </article>
 </template>
 

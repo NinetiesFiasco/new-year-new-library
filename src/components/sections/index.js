@@ -8,7 +8,8 @@ import Express from './Express.vue'
 import ExpressAndVue from './ExpressAndVue.vue'
 import VueTests from './VueTests.vue'
 import Games from './Games.vue'
+import Webpack from './Webpack.vue'
 
 export {
-  Vue, Git, GitHubPages, CurrentLibrary, Traveling, Html5, Express, ExpressAndVue, VueTests, Games
+  Vue, Git, GitHubPages, CurrentLibrary, Traveling, Html5, Express, ExpressAndVue, VueTests, Games, Webpack
 }

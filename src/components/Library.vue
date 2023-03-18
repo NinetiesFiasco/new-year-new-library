@@ -13,6 +13,7 @@
       <router-link to="/vue-tests">VUE tests</router-link>
       <router-link to="/games">Игры</router-link>
       <router-link to="/webpack">Webpack</router-link>
+      <router-link to="/ide">IDE</router-link>
     </nav>
 
     <main>

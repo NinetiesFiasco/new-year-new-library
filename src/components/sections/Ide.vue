@@ -23,6 +23,10 @@
         <li>C# Расширение для работы с C#</li>
         <li>Debugger for Unity Расширение дебагер для Unity</li>
       </ul>
+      <h3>Отладка</h3>
+      <div>
+        Для отладки серверного node.js кода я использую Google Chrome. Нужно перейти по ссылке chrome://inspect/#devices. Также убедиться что сервер запущен с флагом --inspect.
+      </div>
     </div>
   </div>
 </template>
